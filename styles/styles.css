@@ -131,6 +131,7 @@ ul {
     color: #FFFFFF;
     border: none;
 }
+
 a
 {text-decoration: none;}
 
@@ -385,4 +386,7 @@ align-items: center;
 .yellow-tick{
     width:35px;
     height:35px;
+}
+a:hover{
+    background-color: #FF9900;
 }
