@@ -12,6 +12,7 @@ header {
     width: 100%;
     min-height: 604px;
     max-width: 1126px;
+
 }
 
 .logo {
@@ -33,6 +34,7 @@ nav {
     width: 100%;
     min-height: 78px;
     margin-top: 20px;
+    
 }
 
 ul {
@@ -85,13 +87,15 @@ ul {
 }
 
 .header-info {
-    width: 518px;
-    height: 331px;
+    max-width: 518px;
+    width: 100%;
+    min-height: 331px;
 }
 
 .main-title {
-    width: 518px;
-    height: 108px;
+    max-width: 518px;
+    min-height: 108px;
+    width: 100%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -101,8 +105,9 @@ ul {
 }
 
 .main-inf {
-    width: 458px;
-    height: 95px;
+    max-width: 458px;
+    width: 100%;
+    min-height: 95px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -126,6 +131,8 @@ ul {
     color: #FFFFFF;
     border: none;
 }
+a
+{text-decoration: none;}
 
 .video-button-1 {
     font-family: 'Poppins';
@@ -148,7 +155,7 @@ ul {
 }
 
 main {
-    min-height: 2840px;
+    min-height: 2200px;
     max-width: 1126px;
     width: 100%;
 }
@@ -270,13 +277,15 @@ main {
 }
 
 .thirdcontainer-pic {
-    width: 520px;
-    height: 574px;
+    max-width: 520px;
+    width: 100%;
+    min-height: 574px;
 }
 
 .fourthcontainer-pic {
-    width: 535px;
-    height: 520px;
+    max-width: 535px;
+    min-height: 520px;
+    width:100%;
 }
 
 .header-container-four {
@@ -288,8 +297,9 @@ main {
 }
 
 .header-info-four {
-    width: 486px;
-    height: 427px;
+    max-width: 486px;
+    min-height: 427px;
+    width: 100%;
 }
 
 .header-info-four-start {
@@ -323,10 +333,6 @@ main {
     color: #544837;
 }
 
-.tick-logo {
-    width: 430px;
-    height: 52px;
-}
 
 
 
@@ -360,8 +366,23 @@ footer {
 
 .end-flex {
     display: flex;
-    width: 100%;
-    margin-top: 20px;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+}
+.footer-paragraph{
+display: flex;
+width: 100%;
+justify-content: space-between;
+margin-top: 30px;
+}
+.align-img{
+max-width: 450px;
+min-height: 52px;
+display: flex;
+width: 100%;
+flex-direction: row;
+align-items: center;
+}
+.yellow-tick{
+    width:35px;
+    height:35px;
 }
