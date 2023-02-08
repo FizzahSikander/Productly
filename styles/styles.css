@@ -128,18 +128,18 @@ ul {
 }
 
 .video-button-1 {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-text-decoration-line: underline;
-color: #FF9900;
-width: 175px;
-height: 23px;
-background: #FFFFFF;
-border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #FF9900;
+    width: 175px;
+    height: 23px;
+    background: #FFFFFF;
+    border: none;
 }
 
 .firstcontainer-pic {
@@ -165,21 +165,23 @@ main {
     width: 100%;
     margin-top: 20px;
 }
-.heading-container-flex{
+
+.heading-container-flex {
     display: flex;
-    width:100%;
+    width: 100%;
     justify-content: center;
     min-height: 543px;
     max-width: 1126px;
 
-    
+
 }
+
 .tools {
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 1126px;
-min-height: 204px;
+    min-height: 204px;
 
 
 }
@@ -271,53 +273,57 @@ min-height: 204px;
     width: 520px;
     height: 574px;
 }
-.fourthcontainer-pic{
-width: 535px;
-height: 520px;
-}
-.header-container-four{
-display: flex;
-max-width: 1121px;
-min-height: 520px;
-width: 100%;
-flex-direction: row;
+
+.fourthcontainer-pic {
+    width: 535px;
+    height: 520px;
 }
 
-.header-info-four{
-    width: 486px;
-    height:427px;
+.header-container-four {
+    display: flex;
+    max-width: 1121px;
+    min-height: 520px;
+    width: 100%;
+    flex-direction: row;
 }
-.header-info-four-start{
+
+.header-info-four {
+    width: 486px;
+    height: 427px;
+}
+
+.header-info-four-start {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #544837;
-    width:212px;
-    height:24px;
+    width: 212px;
+    height: 24px;
 }
 
-.main-title-four{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 54px;
-width:342px;
-height:54px;
-color: #2F281E;
+.main-title-four {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    width: 342px;
+    height: 54px;
+    color: #2F281E;
 }
 
-.main-info-four{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-color: #544837;
+.main-info-four {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
 }
-.tick-logo{
+
+.tick-logo {
     width: 430px;
     height: 52px;
 }
@@ -335,21 +341,24 @@ footer {
 .end {
     display: flex;
 }
-.footer-button{
-    width:131px ;
-    height:39px;
+
+.footer-button {
+    width: 131px;
+    height: 39px;
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-background-color: #FF9900;
-text-align: center;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    background-color: #FF9900;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
 
 }
-.end-flex{
+
+.end-flex {
     display: flex;
     width: 100%;
     margin-top: 20px;
